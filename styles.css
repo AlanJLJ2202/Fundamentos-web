@@ -9,11 +9,54 @@ h1 {
 } 
 
 nav {
+    padding-top: 0.5%;
     text-align: center;
     background-color: black;
-    padding: 100px;
-    width: 10px;
-    border-radius: 90%;
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: green;
+    flood-color: blue;
+}
+
+a:hover {
+    color: green;
+}
+
+.google:hover {
+    color: blue;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.w3schools:hover{
+    color: green;
+}
+
+.stack:hover {
+    color: orange;
+}
+
+.lista_1{
+    background-color: azure;
+    border-radius: 10%;
+    width: 10%;
+}
+
+.lista_2{
+    background-color: darkgray;
+    border-radius: 10%;
+    width: 30%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 45%;
 }
 
 #container {
@@ -31,4 +74,24 @@ nav {
 
 #imagen {
     width: 20%;
+}
+
+.cuerpo {
+    text-align: center;
+    display: table-cell;
+    height: 600px;
+    position: relative;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.parrafo {
+    text-align: center;
+    color: black;
+    background-color: gold;
+}
+
+.contenido {
+    color: white;
+    background-color: black;
 }
