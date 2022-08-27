@@ -1,0 +1,34 @@
+.app_bar{
+    background-color: #1381D9;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.appbar_start{
+  align-items: center;
+  width: 15%;
+  display: inline-flex;
+  height: 50px;
+  color: white;
+}
+
+h3{
+    padding: 30px;
+}
+
+img.rounded-corners {
+  border-radius: 60px;
+}
+
+
+.appbar_end{
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  
+}
