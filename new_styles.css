@@ -28,6 +28,11 @@ img.rounded-corners {
   border-radius: 60px;
 }
 
+img.rounded-cornerss {
+  border-radius: 15px;
+
+}
+
 
 .appbar_end{
   height: 50px;
@@ -99,13 +104,51 @@ img.rounded-corners {
   color: #1381D9;
 }
 
+
+.carrusel_2{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
 .card_3{
   background-color: #E7E4E3;
-  width: 300px;
+  width: 350px;
   height: 75px;  
-  margin: 0 2px;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   color: #1381D9;
+}
+
+
+.card_4{
+  background-color: #E7E4E3;
+  width: 350px;
+  height: 75px;  
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  color: #1381D9;
+}
+
+.carrusel_3{
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+}
+
+.cmd{
+  width: 100%;
+  
+  margin-top: 30px;
+  
 }
